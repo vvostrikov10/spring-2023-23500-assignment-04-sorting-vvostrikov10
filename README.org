@@ -38,5 +38,12 @@ require a make file that compiles to an executable named *main*. You
 can create a new Makefile or copy and modify one you've used in the past.
 
 
-* Write your comments here:   
+* Write your comments here:
+Merge sort performs faster than the quicksort I wrote, when there is a lot of
+repeating values(quicksort become closer to O(n^2) then). The standard C++ sort
+performs way faster than my quicksort when there is a lot of repeated values.
+When there is a relatively low amount of repeated values my quicksort performs,
+comparable to standard C++ sort and it performs way faster than the merge sort 
+we wrote in class.
+
    
